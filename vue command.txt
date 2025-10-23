@@ -1,0 +1,15 @@
+to install vue
+*npm install -g @vue/cli
+
+to create vue project
+*vue create project_name
+
+to accept single word name file need to set in package.json
+"rules": {
+      "vue/multi-word-component-names": "off"
+    }
+to install axios
+*npm install axios
+
+to install router
+*npm install vue-router
