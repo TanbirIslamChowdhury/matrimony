@@ -1,12 +1,12 @@
 import { createWebHistory, createRouter } from "vue-router";
 
 const routes =  [
-  // {
-  //   path: "/",
-  //   alias: "/login",
-  //   name: "login",
-  //   component: () => import("./components/LoginForm")
-  // },
+   {
+     path: "/",
+     alias: "/home",
+     name: "login",
+     component: () => import("./components/Home")
+   },
   // {
   //   path: "/dashboard",
   //   alias: "/dashboard",

@@ -277,7 +277,7 @@
                     <div class="row wow fadeInUp" data-wow-delay="0.2s">
                         <div class="col-md-6 text-end border-0 border-top border-end border-secondary p-4">
                             <div class="d-inline-flex align-items-center h-100">
-                                <img src="img/story-1.jpg" class="img-fluid w-100 img-border" alt="">
+                                <img src="assets/img/story-1.jpg" class="img-fluid w-100 img-border" alt="">
                             </div>
                         </div>
                         <div class="col-md-6 border-start border-top border-secondary p-4 pe-0">
@@ -468,7 +468,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="gallery-item">
                             <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/gallery-1.jpg" alt="">
                                 <div class="hover-style"></div>
                                 <div class="search-icon">
                                     <a href="img/gallery-1.jpg" data-lightbox="Gallery-1" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
@@ -483,7 +483,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="gallery-item">
                             <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/gallery-2.jpg" alt="">
                                 <div class="hover-style"></div>
                                 <div class="search-icon">
                                     <a href="img/gallery-2.jpg" data-lightbox="Gallery-2" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
@@ -498,7 +498,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="gallery-item">
                             <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/gallery-3.jpg" alt="">
                                 <div class="hover-style"></div>
                                 <div class="search-icon">
                                     <a href="img/gallery-3.jpg" data-lightbox="Gallery-3" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
@@ -513,7 +513,7 @@
                     <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="gallery-item">
                             <div class="gallery-img">
-                                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
+                                <img class="img-fluid w-100" src="assets/img/gallery-4.jpg" alt="">
                                 <div class="hover-style"></div>
                                 <div class="search-icon">
                                     <a href="img/gallery-4.jpg" data-lightbox="Gallery-4" class="my-auto"><i class="fas fa-plus btn-primary btn-primary-outline-0 p-3"></i></a>
