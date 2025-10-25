@@ -4,15 +4,42 @@ const routes =  [
    {
      path: "/",
      alias: "/home",
-     name: "login",
+     name: "home",
      component: () => import("./components/Home")
    },
-  // {
-  //   path: "/dashboard",
-  //   alias: "/dashboard",
-  //   name: "dashboard",
-  //   component: () => import("./components/Dashboard")
-  // },
+   {
+     path: "/about",
+     alias: "/about",
+     name: "about",
+      component: () => import("./components/About")
+   },
+    {
+      path: "/story"  ,
+      alias: "/story",
+      name: "story",
+      component: () => import("./components/Story")
+    },
+       {
+      path: "/timeline"  ,
+      alias: "/timeline",
+      name: "timeline",
+      component: () => import("./components/Timeline")
+    },
+       {
+      path: "/gallery"  ,
+      alias: "/gallery",
+      name: "gallery",
+      component: () => import("./components/Gallery")
+    },
+       {
+      path: "/rsvp"  ,
+      alias: "/rsvp",
+      name: "rsvp",
+      component: () => import("./components/Rsvp")
+    },
+    
+
+
 ];
 
 const router = createRouter({
