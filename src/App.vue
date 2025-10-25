@@ -11,21 +11,21 @@
             <div class="container-fluid">
                 <div class="container px-0">
                     <nav class="navbar navbar-light navbar-expand-xl" id="navBar">
-                        <a href="index.html" class="navbar-brand">
-                            <h4 class="text-primary display-6 fw-bold mb-0">Mr<strong class="text-secondary">&</strong>Mrs</h4>
-                        </a>
+                        <router-link to="/home" class="navbar-brand">
+                          <h4 class="text-primary display-6 fw-bold mb-0">Mr<strong class="text-secondary">&</strong>Mrs</h4>
+                        </router-link>
                         <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span class="fa fa-bars text-primary"></span>
                         </button>
                         <div class="collapse navbar-collapse py-3" id="navbarCollapse">
                             <div class="navbar-nav mx-auto border-top">
                      <router-link to="/home" class="nav-item nav-link active"> Home </router-link>
-                     <router-link to="/about" class="nav-item nav-link">About</router-link>
+                     <router-link to="/about" class="nav-item nav-link active">About</router-link>
                                
-                         <router-link to="/story" class="nav-item nav-link">Story</router-link>   
-                         <router-link to="/timeline" class="nav-item nav-link">Timeline</router-link>
-                     <router-link to="/gallery" class="nav-item nav-link">Gallery</router-link>
-                     <router-link to="/rsvp" class="nav-item nav-link">RSVP</router-link>
+                         <router-link to="/story" class="nav-item nav-link active">Story</router-link>   
+                         <router-link to="/timeline" class="nav-item nav-link active">Timeline</router-link>
+                     <router-link to="/gallery" class="nav-item nav-link active">Gallery</router-link>
+                     <router-link to="/rsvp" class="nav-item nav-link active">RSVP</router-link>
                              
                             </div>
                             <div class="d-flex align-items-center flex-nowrap pt-xl-0">
@@ -115,19 +115,6 @@
 
 
         <router-view></router-view>
-
-
-     
-
-
-
-
-
-
-
-
-    
-
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.1s">
